@@ -28,13 +28,11 @@ html {
   display: block;
 }
 
-/* Commenting out to focus on full size page
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
 }
-*/
 
 /* Header */
 
@@ -80,7 +78,7 @@ header .mobile {
   display: none;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -113,7 +111,7 @@ header .mobile {
     color: white;
   }
 }
-*/
+
 
 /* Sign Up Section */
 
@@ -172,12 +170,15 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    height: 28rem;
+    padding-left: 0;
+    padding-right: 0;
+    height: 7rem;
+    background-position: bottom;
   }
 
   #sign-up-cta {
@@ -190,6 +191,7 @@ header .mobile {
 
   #sign-up-cta .content {
     margin-top: 0;
+
   }
 
   #sign-up-cta .email {
@@ -204,7 +206,7 @@ header .mobile {
     font-size: 2.25rem;
   }
 }
-
+/* Commenting out mobile for now
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -219,6 +221,7 @@ header .mobile {
   }
 }
 */
+
 
 
 /* Features Section */
@@ -267,7 +270,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -281,6 +284,7 @@ header .mobile {
   }
 }
 
+
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
@@ -292,7 +296,7 @@ header .mobile {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
-*/
+
 
 /* Filters Section */
 
@@ -330,7 +334,7 @@ header .mobile {
   height: auto;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -360,7 +364,7 @@ header .mobile {
     display: none;
   }
 }
-*/
+
 
 /* Quotes Section */
 
@@ -385,24 +389,24 @@ header .mobile {
   height: 1.875rem;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
   }
 }
-*/
+
 
 /* Footer */
 
@@ -422,10 +426,9 @@ footer .copyright {
   flex-grow: 1;
 }
 
-/* Commenting out to focus on full size page
+
 @media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
 }
-*/
